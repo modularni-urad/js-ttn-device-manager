@@ -9,3 +9,11 @@ Data MUST be compatible with [import.sample.csv](./data_samples/import.sample.cs
 ```
 APP=my_app_name KEY=ttn-account-v2.myown_key node import_devices.js ~/data.csv
 ```
+
+## delete_devices.js
+
+This script will delete all devices in given app
+
+```
+APP=my_app_name12 KEY=ttn-account-v2.myown_key node delete_devices.js
+```
