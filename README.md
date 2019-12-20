@@ -7,7 +7,8 @@ Import uses [http API](https://www.thethingsnetwork.org/docs/applications/manage
 Data MUST be compatible with [import.sample.csv](./data_samples/import.sample.csv) file structure.
 
 ```
-APP=my_app_name KEY=ttn-account-v2.myown_key node import_devices.js ~/data.csv
+APP=my_app_name APP_EUY=11223344556677 KEY=ttn-account-v2.myown_key \
+node import_devices.js ~/data.csv
 ```
 
 ## delete_devices.js
