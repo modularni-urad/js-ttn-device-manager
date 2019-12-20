@@ -1,0 +1,25 @@
+{
+  "name": "js-ttn-device-manager",
+  "description": "set of scripts for import devices and other tasks",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node import_devices.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Vaclav Klecanda <vencax77@gmail.com>"
+  },
+  "license": "BSD",
+  "engines": {
+    "node": ">=12.x",
+    "npm": ">=6.x"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "csv-parse": "^4.8.2",
+    "dotenv": "^4.0.0",
+    "ttn": "^2.3.3",
+    "underscore": "^1.8.3"
+  },
+  "private": "false"
+}
